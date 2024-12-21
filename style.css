@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    overflow: hidden; /* Prevent scrolling */
+}
+
+span {
+    background: url("https://cdn2.iconfinder.com/data/icons/free-1/128/Love__heart_like-1024.png");
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    animation: fadeOut 3s linear; /* Only handle fading */
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
